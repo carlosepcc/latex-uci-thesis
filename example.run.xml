@@ -79,5 +79,8 @@
     <requires type="dynamic">
       <file>example.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>bib/ref.bib</file>
+    </requires>
   </external>
 </requests>
