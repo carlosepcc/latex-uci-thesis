@@ -8,9 +8,9 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2015 by Hass�n Lombera Rodr�guez <hlombera@uci.cu>
+%% Copyright (C) 2015 by Hassán Lombera Rodríguez <hlombera@uci.cu>
 %% Maintainers: Luis Guillermo Silva Rojas <lgsilva@uci.cu>
-%%              Rub�n Alcolea N��ez <ralcolea@uci.cu>
+%%              Rubén Alcolea Núñez <ralcolea@uci.cu>
 %% 
 %% This file may be distributed and/or modified under the conditions of
 %% the LaTeX Project Public License, either version 1.3c of this license
@@ -181,7 +181,7 @@
 
 \newcommand{\@logoFoot}
 {
-\textsc{\large Universidad de las Ciencias Inform�ticas}     \\
+\textsc{\large Universidad de las Ciencias Informáticas}     \\
 \textsc
 {\large
 \ifx\@center\@undefined\relax
@@ -198,7 +198,7 @@ Facultad \@facultyNum} \\
 {
 \centering
 {\bfseries Trabajo de diploma para optar por el t�tulo de
-Ingeniero en Ciencias Inform�ticas }
+Ingeniero en Ciencias Informáticas }
 }
 
 \newcommand{\doctype}[1]
@@ -396,8 +396,8 @@ Ingeniero en Ciencias Inform�ticas }
 \newcommand{\introduction}
 {
 \phantomsection
-\chapter*{Introducci�n  \markboth{\slshape INTRODUCCI�N}{\slshape INTRODUCCI�N}}
-\addcontentsline{toc}{chapter}{Introducci�n}
+\chapter*{Introducción  \markboth{\slshape INTRODUCción}{\slshape INTRODUCción}}
+\addcontentsline{toc}{chapter}{Introducción}
 }
 \newcommand{\conclusions}
 {
@@ -514,8 +514,8 @@ Ingeniero en Ciencias Inform�ticas }
 
 %\renewcommand{\listalgorithmname}{Lista de algoritmos}
 %\floatname{algorithm}{Algoritmo}
-\renewcommand{\lstlistingname}{C�digo fuente}
-\renewcommand{\lstlistlistingname}{Lista de c�digos fuentes}
+\renewcommand{\lstlistingname}{Código fuente}
+\renewcommand{\lstlistlistingname}{Lista de códigos fuentes}
 
 \newcommand{\CC}[1][\tiny]{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{#1\bf ++}}}
 \definecolor{strcolor}{RGB}{163,21,21} % This is the Visual Studio color for strings.
@@ -931,11 +931,11 @@ hidelinks
 {
 \clearpage
 \thispagestyle{empty}
-\chapter*{Declaraci�n de autor�a}
+\chapter*{Declaración de autoría}
 
-Declaramos ser autores de la presente tesis y reconocemos a la Universidad de las Ciencias Inform�ticas los derechos patrimoniales sobre esta, con car�cter exclusivo.\\
+Declaramos ser autores de la presente tesis y reconocemos a la Universidad de las Ciencias Informáticas los derechos patrimoniales sobre esta, con carácter exclusivo.\\
 
-Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�as del mes de \underline{\hspace{1.7cm}} del a�o \underline{\hspace{1.3cm}}.
+Para que así conste firmamos la presente a los \underline{\hspace{0.7cm}} días del mes de \underline{\hspace{1.7cm}} del año \underline{\hspace{1.3cm}}.
 
 \newcounter{itemscnt}
 \setcounter{itemscnt}{0}
@@ -1120,21 +1120,21 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \multicolumn{2}{|l|}{\colorentry{\textbf{Historia de usuario}}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
-\multicolumn{2}{r}{{Contin�a en la pr�xima p�gina}} \\
+\multicolumn{2}{r}{{Continúa en la próxima página}} \\
 \endfoot
 
 \hline
 \endlastfoot
 \hhline{*{2}{-}}
-\textbf{N�mero:} \thestorycnt & \textbf{Nombre:} \@storyname\\ \hline
+\textbf{Número:} \thestorycnt & \textbf{Nombre:} \@storyname\\ \hline
 \multicolumn{2}{|p{0.97\linewidth}|}{\textbf{Usuario:} \@storyuser} \\ \hline
 \textbf{Prioridad en negocio:} \@storypriority & \textbf{Riesgo en desarrollo:} \@storyrisk\\ \hline
-\textbf{Puntos estimados:} \@storypoints &  \textbf{Iteraci�n asignada:} \@storyiter  \\ \hline
+\textbf{Puntos estimados:} \@storypoints &  \textbf{Iteración asignada:} \@storyiter  \\ \hline
 \multicolumn{2}{|p{0.97\linewidth}|}{\textbf{Programador responsable:} \@storyprogrammer} \\ \hline
-\multicolumn{2}{|p{0.97\linewidth}|}{\textbf{Descripci�n:} \@storydescription}\\ \hline
+\multicolumn{2}{|p{0.97\linewidth}|}{\textbf{Descripción:} \@storydescription}\\ \hline
 \multicolumn{2}{|p{0.97\linewidth}|}{\textbf{Observaciones:} \@storyobservation}
 \ifx\@storyinterface\undefined\relax
 \else
@@ -1186,17 +1186,17 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \multicolumn{2}{|c|}{\colorentry{\textbf{Tarjeta CRC}}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
-\multicolumn{2}{r}{{Contin�a en la pr�xima p�gina}} \\
+\multicolumn{2}{r}{{Continúa en la próxima página}} \\
 \endfoot
 
 \hline
 \endlastfoot
 \hhline{*{2}{-}}
 \multicolumn{2}{|l|}{\textbf{Clase:} \@crcclass} \\ \hline
-\textbf{Responsabilidad} & \textbf{Colaboraci�n} \\ \hline
+\textbf{Responsabilidad} & \textbf{Colaboración} \\ \hline
 \multicolumn{1}{|p{0.4\linewidth}|}{\vspace{-4ex}\begin{flushleft}\@crcresp \vspace{-2ex}\end{flushleft}} & \multicolumn{1}{p{0.4\linewidth}|}{\vspace{-4ex}\begin{flushleft}\@crccolab \vspace{-2ex}\end{flushleft}}
 \end{longtable}
 }
@@ -1222,17 +1222,17 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 }
 {
 \begin{longtable}[c]{|c|c|m{.45\linewidth}|c|@{}c@{}}
-\caption{Estimaci�n de esfuerzo por historia de usuario}
+\caption{Estimación de esfuerzo por historia de usuario}
 \label{\@effortestlabel}\\ % the return here is mandatory
 \hhline{*{4}{-}}
-\colorentry{\textbf{Iteraci�n}} & \multicolumn{2}{c|}{\colorentry{\textbf{Historias de usuario}}}&  \multicolumn{1}{c|}{\colorentry{\textbf{Puntos estimados (semanas)}}} % & \colorentry{\textbf{Puntos reales}}
+\colorentry{\textbf{Iteración}} & \multicolumn{2}{c|}{\colorentry{\textbf{Historias de usuario}}}&  \multicolumn{1}{c|}{\colorentry{\textbf{Puntos estimados (semanas)}}} % & \colorentry{\textbf{Puntos reales}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
 \cline{1-4}
-\multicolumn{4}{r}{{Contin�a en la pr�xima p�gina}} \\
+\multicolumn{4}{r}{{Continúa en la próxima página}} \\
 \endfoot
 
 \hhline{*{4}{-}}
@@ -1351,17 +1351,17 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 }
 {
 \begin{longtable}[c]{|c|c|m{.45\linewidth}|c|@{}c@{}}
-\caption{Plan de duraci�n de las iteraciones}
+\caption{Plan de duración de las iteraciones}
 \label{\@iterdurationlabel}\\ % the return here is mandatory
 \hhline{*{4}{-}}
-\colorentry{\textbf{Iteraci�n}} & \multicolumn{2}{c|}{\colorentry{\textbf{Historias de usuario}}}&  \multicolumn{1}{c|}{\colorentry{\textbf{Duraci�n (semanas)}}}
+\colorentry{\textbf{Iteración}} & \multicolumn{2}{c|}{\colorentry{\textbf{Historias de usuario}}}&  \multicolumn{1}{c|}{\colorentry{\textbf{Duración (semanas)}}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
 \cline{1-4}
-\multicolumn{4}{r}{{Contin�a en la pr�xima p�gina}} \\
+\multicolumn{4}{r}{{Continúa en la próxima página}} \\
 \endfoot
 
 \hhline{*{4}{-}}
@@ -1518,17 +1518,17 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \multicolumn{2}{|l|}{\colorentry{\textbf{Tarea}}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
-\multicolumn{2}{r}{{Contin�a en la pr�xima p�gina}} \\ \hhline{*{2}{-}}
+\multicolumn{2}{r}{{Continúa en la próxima página}} \\ \hhline{*{2}{-}}
 \endfoot
 
 \hline
 \endlastfoot
 
 \hhline{*{2}{-}}
-\textbf{N�mero de tarea:} \@taskcnt  & \textbf{N�mero de Historia de usuario:} \@engtaskuserstory \\ \hline
+\textbf{Número de tarea:} \@taskcnt  & \textbf{Número de Historia de usuario:} \@engtaskuserstory \\ \hline
 \multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Nombre de la tarea:} \@engtaskname} \\ \hline
 \textbf{Tipo de tarea:} \@engtasktype  & \textbf{Puntos estimados:} \@engtaskpointestimation \\ \hline
 \textbf{Fecha de inicio:} \displaydate{startdate} &  \textbf{Fecha de fin:} \displaydate{enddate}
@@ -1538,7 +1538,7 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \\ \hline
 \multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Programador responsable:} \@engtaskprogrammer} \\ \hline
 \fi
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Descripci�n:} \@engtaskdescription}\\
+\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Descripción:} \@engtaskdescription}\\
 \end{longtable}
 }
 
@@ -1612,32 +1612,32 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 {
 \@chktestcasecmds
 \begin{longtable}[c] {|l|l|}
-\caption{Prueba de aceptaci�n \# \thetestcasecnt}
+\caption{Prueba de aceptación \# \thetestcasecnt}
 \label{\@testcaselabel}\\ % the return here is mandatory
 
 \hhline{*{2}{-}}
-\multicolumn{2}{|l|}{\colorentry{\textbf{Caso de prueba de aceptaci�n}}}
+\multicolumn{2}{|l|}{\colorentry{\textbf{Caso de prueba de aceptación}}}
 \endfirsthead
 
-\caption[]{Continuaci�n de la p�gina anterior}
+\caption[]{Continuación de la página anterior}
 \endhead
 
-\multicolumn{2}{r}{{Contin�a en la pr�xima p�gina}} \\
+\multicolumn{2}{r}{{Continúa en la próxima página}} \\
 \endfoot
 
 \hline
 \endlastfoot
 
 \hhline{*{2}{-}}
-\multicolumn{1}{|p{0.4\linewidth}|}{\textbf{C�digo:} \@testcasecode} & \textbf{Historia de usuario:} \@testcaseuserstory\\ \hline
+\multicolumn{1}{|p{0.4\linewidth}|}{\textbf{Código:} \@testcasecode} & \textbf{Historia de usuario:} \@testcaseuserstory\\ \hline
 \multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Nombre:} \@testcasename} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Descripci�n:} \@testcasedescription} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Condiciones de ejecuci�n:}\vspace{-2ex}
+\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Descripción:} \@testcasedescription} \\ \hline
+\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Condiciones de ejecución:}\vspace{-2ex}
  \begin{flushleft}
 \@testcaseexeccond
 \vspace{-2ex}
 \end{flushleft}} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Pasos de ejecuci�n:}\vspace{-2ex}
+\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Pasos de ejecución:}\vspace{-2ex}
 \begin{flushleft}\@testcaseexecstep \vspace{-2ex} \end{flushleft}}\\ \hline
 \multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Resultados esperados:} \@testcaseexpresult}
 \end{longtable}
@@ -1646,8 +1646,8 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \AtEndDocument
 {
 \printglossary
-\printglossary[type=\acronymtype, toctitle=Acr�nimos, title=Acr�nimos]
-\printbibliography[heading=bibintoc, title=Referencias bibliogr�ficas]
+\printglossary[type=\acronymtype, toctitle=Acrónimos, title=Acrónimos]
+\printbibliography[heading=bibintoc, title=Referencias bibliográficas]
 \vfill
 \medskip
 \settimeformat{ampmtime}
@@ -1678,7 +1678,7 @@ Para que as� conste firmamos la presente a los \underline{\hspace{0.7cm}} d�
 \SetWatermarkLightness{0.9}
 \fboxrule=1pt  % rule width
 \fboxsep=1pt  
-\newcommand{\@predefensetext}{\resizebox{!}{15pt}{\fcolorbox{black}{blue!90}{\textcolor{yellow}{Pre-defensa [compilaci�n digital]}}}}
+\newcommand{\@predefensetext}{\resizebox{!}{15pt}{\fcolorbox{black}{blue!90}{\textcolor{yellow}{Pre-defensa [compilación digital]}}}}
 \newcommand\@predefensestamp{%
 \begin{textblock}{2}(-0.09,0.55)
 \begin{rotate}{90}
