@@ -1,2 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Lista de tareas pendientes}{\es@scroman {xi}}{chapter*.11}%
