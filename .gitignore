@@ -4,3 +4,8 @@
 *.toc
 *.lot
 *.directory
+*.run.xml
+*.pdf
+*.fdb_latexmk
+*.synctex.gz
+*.fls
