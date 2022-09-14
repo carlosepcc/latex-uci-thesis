@@ -142,8 +142,8 @@
 \DeclareOption{nolol}{\booltrue{nolol}}\ProcessOptions
 
 \newcommand{\eqIntRef}[2]{(\ref{#1}-\ref{#2})}
-\renewcommand{\appendixtocname}{Ap�ndices}
-\renewcommand{\appendixpagename}{Ap�ndices}
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices}
 
 \newcommand{\ucicenter}[1]
 {
@@ -197,7 +197,7 @@ Facultad \@facultyNum} \\
 \newcommand{\@doctypeText}
 {
 \centering
-{\bfseries Trabajo de diploma para optar por el t�tulo de
+{\bfseries Trabajo de diploma para optar por el título de
 Ingeniero en Ciencias Informáticas }
 }
 
@@ -408,7 +408,7 @@ Ingeniero en Ciencias Informáticas }
 \makeglossaries
 \newcommand{\newacronymeng}[3]
 {
-\newacronym[first={\glsentrylong{\glslabel} (\glsentryshort{\glslabel}, por sus siglas en ingl�s)}]{#1}{#2}{#3}
+\newacronym[first={\glsentrylong{\glslabel} (\glsentryshort{\glslabel}, por sus siglas en inglés)}]{#1}{#2}{#3}
 }
 \renewcommand*{\glsclearpage}{\clearpage} % it prevents the glossaries package to start in odd pages always
 \newcommand{\suggestions}
@@ -778,13 +778,13 @@ showstringspaces=false,      % Leerzeichen in Strings anzeigen ?
   breaklines=true,
   % German umlauts
   literate=%
-  {�}{{\"O}}1
-  {�}{{\"A}}1
-  {�}{{\"U}}1
-  {�}{{\ss}}1
-  {�}{{\"u}}1
-  {�}{{\"a}}1
-  {�}{{\"o}}1
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
 }
 
 \newcommand{\@pagelimit}{80}
@@ -888,7 +888,7 @@ sortlocale=es_ES]{biblatex}[2014/06/25]
 hidelinks
 }
 \renewcommand{\@predefensetext}{\resizebox{!}{12pt}{\textcolor{gray!60}
-{Pre-defensa [versi�n de impresi�n]}}}
+{Pre-defensa [versión de impresión]}}}
 }
 \ProcessOptions
 }
@@ -1505,7 +1505,7 @@ Para que así conste firmamos la presente a los \underline{\hspace{0.7cm}} días
 
 \@clrengtaskcmds
 \set@engtasklabel{#1}
-\set@caption{Tarea de ingenier�a \# \theengtaskcnt}
+\set@caption{Tarea de ingeniería \# \theengtaskcnt}
 \set@taskcnt{\theengtaskcnt}
 }
 {

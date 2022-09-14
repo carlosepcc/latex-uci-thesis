@@ -9,3 +9,13 @@
 *.fdb_latexmk
 *.synctex.gz
 *.fls
+
+*.glsdefs
+
+*.acn
+
+*.bcf
+
+*.ist
+
+*.tdo
