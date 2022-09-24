@@ -1,46 +1,57 @@
-\documentclass[spanish,noloa,nolol,pagelimitmode=flex,authorshippage=ltd]{thesis} [2015/30/06 v1.0]
+\documentclass[spanish,noloa,nolol,pagelimitmode=flex,authorshippage=ltd]{thesis} [2015/30/06 v1.0.1]
 
-%%%%%% carlosepc packages %%%%%
-%\usepackage[utf8]{inputenc}
-%%%%%% carlosepc custom commands %%%%%
-\newcommand{\uci}{Universidad de las Ciencias Inform√°ticas }
+
+	% custom commands %
+\newcommand{\uci}{Universidad de las Ciencias Inform·ticas }
 \newcommand{\fac}{Facultad 4 }
-\newcommand{\cdis}{Sistema de Gesti√≥n para el Proceso de Comisi√≥n Disciplinaria en la \fac de la \uci}
-\newcommand{\cd}{comisi√≥n disciplinaria}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\cdis}{Sistema de GestiÛn para el Proceso de ComisiÛn Disciplinaria en la \fac de la \uci}
+\newcommand{\cd}{comisiÛn disciplinaria }
 
-\addauthor{√Ångel Luis Fumero S√°nchez}
-\author{Carlos Enrique Pi√±eiro C√°rdenas}
-\addtutor{MSc. Yordankis Matos L√≥pez}
+	%	AUTORÕA
+\addauthor{¡ngel Luis Fumero S·nchez}
+\author{Carlos Enrique PiÒeiro C·rdenas}
+\addtutor{MSc. Yordankis Matos LÛpez}
 
-\title{Sistema de Gesti√≥n para el Proceso de Comisi√≥n Disciplinaria en la \fac de la \uci}
-\ucicenter{L√≠nea de Investigaci√≥n de Inform√°tica Aplicada a la Sociedad}
+	%	TÕTULO
+\title{Sistema de GestiÛn para el Proceso de ComisiÛn Disciplinaria en la de la uci}
+
+	%	CENTRO Y FACULTAD
+\ucicenter{LÌnea de InvestigaciÛn de Inform·tica Aplicada a la Sociedad}
 \facultynum{4}
-\thought{"Lo que est√° definido en el juicio, ser√° de seguro bien puesto en los labios"\\
- Jos√© Mart√≠}
-\dedicatory{A quienes nos apoyaron.}
-\acknowledgment{ Les estamos sumamente agradecidos a nuestros familiares, amigos, profesores y a rtodas las personas e instituciones que nos sirvieron de apoyo, ayuda e inspiraci√≥n.}
 
-%todo
+	%	PENSAMIENTO
+\thought{"Lo que est· definido en el juicio, ser· de seguro bien puesto en los labios"\\
+ JosÈ MartÌ}
+ 
+	%	DEDICATORIA
+\dedicatory{A quienes nos apoyaron.}
+
+	%	AGRADECIMIENTOS
+\acknowledgment{ Les estamos sumamente agradecidos a nuestros familiares, amigos, profesores y a rtodas las personas e instituciones que nos sirvieron de apoyo, ayuda e inspiraciÛn.}
+
+	%	RESUMEN
 \abstract{The objective of this work is to develop the System for the Management of the Disciplinary Commission Process in Faculty 4 of the University of Informatics Sciences, allowing the streamlining of the flow of information during the process.}
-\keywords{comisi√≥n disciplinaria, sistema de gesti√≥n, aplicaci√≥n web, software de gesti√≥n, disciplina}
+
+	%	PALABRAS CLAVE
+\keywords{comisiÛn disciplinaria, sistema de gestiÛn, aplicaciÛn web, software de gestiÛn, disciplina}
+
 \input{Glossary}
 \input{Acronyms}
+
+	%	FUENTE DE REFERENCIAS
 \addbibresource{bib/ref.bib}
-%\bibliographystyle{plain}
-%\bibliography{bib/tesis.bib}
+
+	%	CUERPO DEL DOCUMENTO
 \begin{document}
-  \maketitle
-  % Create a separate file for each. As filenames use the
-  % ones in braces.
-  
-  Cite \cite{Autodesk2019}
-  
+	%	PRIMERAS P¡GINAS
+ \maketitle
+ 
+ 	%	PRINCIPALES CAPÕTULOS
   \input{Introduction}
   \input{Chapter1}
   \input{Chapter2}
   \input{Chapter3}
   \input{Conclusions}
-  \input{Suggestions}
-  \input{Appendices}
+%  \input{Suggestions}
+%  \input{Appendices}
 \end{document}
